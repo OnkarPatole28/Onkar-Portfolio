@@ -1,18 +1,18 @@
 import React from 'react'
-import './Hero.css'
+import './Self.css'
 import profile_img from '../../assets/profile_img.svg'
-const Hero = () => {
+const Self = () => {
   return (
-    <div className='hero'>
+    <div className='Self'>
      <img src={profile_img} alt="" />
-     <h1>Hello, I'm Onkar, Cloud Software Developer based in USA.</h1>
+     <h1><span>Hello, I'm Onkar,</span> Cloud Software Developer based in USA.</h1>
      <p>A software developer with overall 3 years of IT experience. Have Experties in AWS cloud. Profecient in programming languages like Python, Java and C</p>
-     <div className="hero-action">
-        <div className="hero-connect"> Connect with me</div>
-        <div className="hero-resume">My resume</div>
+     <div className="Self-action">
+        <div className="Self-connect"> Connect with me</div>
+        <div className="Self-resume">My resume</div>
      </div>
     </div>
   )
 }
 
-export default Hero
+export default Self
