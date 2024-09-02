@@ -14,9 +14,8 @@
     font-weight: 600;
 }
 .self h1 span{
-    background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+    background: linear-gradient(270deg, #DF8908 10%, #b415ff 100%);
     background-clip: text;
-    -webkit-background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -33,4 +32,22 @@
     font-size: 24px;
     font-weight: 500;
     margin-bottom:50px;
+}
+.self-connect{
+    padding: 25px 45px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #DF8908 -5.08%, #B415FF 106.28%);
+    cursor: pointer;
+}
+.self-resume{
+    padding: 25px 75px;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    cursor: pointer;
+}
+.self-connect:hover{
+    border: 2px solid white;
+}
+.self-resume:hover{
+    border-color: #B415FF;
 }

@@ -1,11 +1,14 @@
 import React from 'react'
 import Navbar from './Components/Navbar/Navbar'
+import Self from './Components/Self/Self'
+import AboutMe from './Components/AboutMe/AboutMe'
 
-export const App = () => {
+const App = () => {
   return (
     <div>
       <Navbar/>
-      <Hero/>
+      <Self/>
+      <AboutMe/>
     </div>
   )
 }
