@@ -49,6 +49,23 @@
     cursor: pointer;
     width: 30px;
 }
+.nav-social-icons {    
+    top: 10px;
+    left: 20px;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-social-icons img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .nav-social-icons img:hover {
+    transform: scale(1.1);
+  }
 @media(max-width:768px){
     .navbar{
         margin: 20px 6%;
