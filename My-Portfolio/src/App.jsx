@@ -1,17 +1,17 @@
 import React from 'react'
 import Navbar from './Components/Navbar/Navbar'
-import Self from './Components/Self/Self'
-import AboutMe from './Components/AboutMe/AboutMe'
+import About from './Components/About/About'
 import Services from './Components/Services/Services'
 import MyWork from './Components/MyWork/MyWork'
 import Contact from './Components/Contact/Contact'
+import Hero from './Components/Hero/Hero'
 
 const App = () => {
   return (
     <div>
       <Navbar/>
-      <Self/>
-      <AboutMe/>
+      <Hero/>
+      <About/>
       <Services/>
       <MyWork/>
       <Contact/>
