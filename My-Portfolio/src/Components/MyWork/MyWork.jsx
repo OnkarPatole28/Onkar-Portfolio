@@ -15,9 +15,11 @@ const MyWork = () => {
         {mywork_data.map((work, index) => {
           return (
             <div key={index} className="mywork-item">
-              <div className="mywork-content"> {/* Wrap image and name */}
-                <img src={work.w_img} alt={work.w_name} />
-                <h3 className="mywork-name">{work.w_name}</h3>
+              <div className="mywork-content">
+                <a href={work.w_url} target="_blank" rel="noopener noreferrer">
+                  <img src={work.w_img} alt={work.w_name} />
+                  <h3 className="mywork-name">{work.w_name}</h3>
+                </a>
               </div>
             </div>
           )
@@ -31,4 +33,4 @@ const MyWork = () => {
   )
 }
 
-export default MyWork
+export default MyWork;

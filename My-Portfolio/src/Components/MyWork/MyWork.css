@@ -19,9 +19,19 @@
 }
 
 .mywork-content {
-    position: relative; /* Ensure hover affects both elements */
+    position: relative; 
     transition: 0.3s;
     cursor: pointer;
+}
+
+
+.mywork-content a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.mywork-content a:hover .mywork-name {
+    text-decoration: none; 
 }
 
 .mywork-content:hover {
