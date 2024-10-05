@@ -3,12 +3,12 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
-    padding-bottom: 20px;
 }
 
 .footer-bottom {
     display: flex;
     justify-content: center; /* Centers the content horizontally */
+    padding-bottom: 20px;
 }
 
 .footer-bottom-left {
