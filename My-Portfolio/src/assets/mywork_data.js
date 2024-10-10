@@ -1,6 +1,6 @@
 import project1_img from '../assets/project_1.jpeg'
 import project2_img from '../assets/project_2.svg'
-import project3_img from '../assets/project_3.svg'
+import project3_img from '../assets/project_3.jpeg'
 
 const mywork_data = [
     {
@@ -17,7 +17,7 @@ const mywork_data = [
     },
     {
         w_no: 3,
-        w_name: "DevOps Project",
+        w_name: "Corporate DevOps CI/CD Pipeline",
         w_img: project3_img,
         w_url: "https://github.com/OnkarPatole28"
     },
