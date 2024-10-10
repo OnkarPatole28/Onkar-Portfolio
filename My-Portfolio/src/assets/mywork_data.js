@@ -17,7 +17,7 @@ const mywork_data = [
     },
     {
         w_no: 3,
-        w_name: "Corporate DevOps CI/CD Pipeline",
+        w_name: "Corporate DevOps CI/CD Pipe",
         w_img: project3_img,
         w_url: "https://github.com/OnkarPatole28"
     },
