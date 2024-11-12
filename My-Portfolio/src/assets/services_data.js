@@ -2,7 +2,7 @@ const Services_Data = [
     {
         s_no:"01",
         s_name:"Michigan Health Information Network Shared Services (MiHIN)",
-        s_desc:"Currently working as Cloud Site Reliability Engineer Intern. Collaborating with development and QA teams to implement cloud solutions using Terraform, Kubernetes, Docker and Serverless Frameworks for healthcare data."
+        s_desc:"Currently working as Cloud DevOps Engineer Intern. Collaborating with development and QA teams to implement cloud solutions using Terraform, Kubernetes, Docker and Serverless Frameworks for healthcare data."
     },
     {
         s_no:"02",
