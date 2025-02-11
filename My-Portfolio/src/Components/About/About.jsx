@@ -18,7 +18,7 @@ const About = () => {
         <div className="about-right">
             <div className="about-para">
                 <p>I am Onkar Patole, a Computer Science graduate student at Binghamton University (SUNY) with over 3 years of professional experience as a Software Developer and Data Engineer.</p>
-                <p>Currently, I am working as a Cloud Site Reliability Engineer Intern at Michigan Health Information Network Shared Services (MiHIN).</p>
+                <p>Currently, I am working as a Cloud DevOps Engineer Intern at Michigan Health Information Network Shared Services (MiHIN).</p>
             </div>
             <div className="about-skills">
                 <div className="about-skill"><p>AWS</p><hr style={{width:"80%"}} /></div>
