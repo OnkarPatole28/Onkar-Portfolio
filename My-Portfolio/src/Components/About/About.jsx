@@ -43,7 +43,8 @@ const About = () => {
         <hr />
         <div className="about-achievement">
           <a href="https://www.credly.com/badges/6eed6b9a-6b8c-487d-b55c-704ffc5d2b89/public_url" target="_blank" rel="noopener noreferrer" className="achievement-link">
-            <h1>Certified Kubernetes Administrator (CKA)</h1>
+            <p>Certified Kubernetes</p>
+            <p>Administrator (CKA)</p>
           </a>
         </div>
         <hr />
